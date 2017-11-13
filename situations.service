@@ -1,0 +1,8 @@
+[Unit]
+Description=Service file for Situations app
+
+[Service]
+ExecStart=/usr/bin/harbour-situations2application server
+
+[Install]
+WantedBy=post-user-session.target
